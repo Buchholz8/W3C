@@ -27,23 +27,23 @@ body {
 
 
 footer {
-    width: 100%;
+    width: 80%;
     min-height: 10vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 #Contact_buttons {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     place-content: center;
 }
 #socials {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     place-content: center;
 }
 #info_buttons {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     place-content: center;
+}
+button {
+    width: 90px;
 }
