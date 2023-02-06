@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+}
+
+
+#Header_Main {
+    width: 100%;
+    min-height: 10vh;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#title_links {
+    justify-self: center;
+    align-self: center;
+}
+
+
+main {
+    min-height: 80vh;
+    display: grid;
+    width: 80%;
+}
+
+
+
+
+#milk_selling {
+        display: grid;
+        place-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#salesman {
+        display: grid;
+        place-content: center;
+        grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+}
+
+
+footer {
+    width: 100%;
+    min-height: 10vh;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#lower_links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+}
+
+
+#logo_img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+#milk_img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    place-self: center;
+}
+#milkman {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    place-self: center;
+}
